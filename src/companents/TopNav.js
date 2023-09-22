@@ -53,23 +53,23 @@ const  TopNav = () => {
                 <h2 className="text-2xl p-4">Yum<span className="text-orange-700 font-bold">Eats</span></h2>
                 <nav>
                     <ul className="flex flex-col p-4 text-gray-900">
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer">
                             <BsPerson size={25} className="mr-4 text-white bg-orange-700 rounded-full cursor-pointer"/>
                             My Account
                         </li>
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer">
                             <TbTruckReturn size={25} className="mr-4 text-white bg-orange-700 rounded-full cursor-pointer"/>
                             Delivery
                         </li>
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer">
                             <MdOutlineFavorite size={25} className="mr-4 text-white bg-orange-700 rounded-full cursor-pointer"/>
                             My Favourite
                         </li>
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer">
                             <FaGoogleWallet size={25} className="mr-4 text-white bg-orange-700 rounded-full cursor-pointer"/>
                             My Wallet
                         </li>
-                        <li className="text-xl py-4 flex">
+                        <li className="text-xl py-4 flex cursor-pointer">
                             <MdHelp size={25} className="mr-4 text-white bg-orange-700 rounded-full cursor-pointer"/>
                             Hellp
                         </li>
