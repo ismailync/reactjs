@@ -7,8 +7,25 @@ const TopPicks = () => {
   return (
     <>
     <h1 className='text-orange-500 font-bold text-2xl text-center py-2'>Top Picks</h1>
-    <div className='hidden lg:flex max-w-[1520px] m-auto py-2 px-2'>
-        <Splide options={{perPage: 4,gap: "0.5rem",drag: "free"}}>
+    <div className='lg:flex max-w-[1520px] mx-auto py-12 px-4'>
+        <Splide options={{ perPage: 5,   breakpoints: {
+      640: {
+        perPage: 1,
+  
+      },
+      768: {
+        perPage: 2,
+    
+      },
+      1024: {
+        perPage: 3,
+       
+      },
+      1488: {
+        perPage: 4,
+       
+      },
+    },gap: "0.5rem",drag: "free"}}>
         {
             topPicks.map((item)=>{
                 return(
